@@ -13,7 +13,7 @@ namespace class
         protected DateTime JoinDate { get; set; }
         protected string Department { get; set; }
         protected int WorkingDays { get; set; }
-        protected string Location { get; set; }
+        
         protected double DA { get; set; }
         public Employee()
         {
@@ -22,5 +22,5 @@ namespace class
             JoinDate = new DateTime(1997, 12, 23, 09, 10, 12);
             Department = "Reasearch & Development";
             WorkingDays = 25;
-            Location = "Pune";
+            
         }
